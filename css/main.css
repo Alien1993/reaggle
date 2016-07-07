@@ -1,0 +1,125 @@
+body {
+	font-family: "Helvetica";
+	background-color: rgb(23, 30, 34);
+	color: white;
+	-webkit-touch-callout: none;	/* iOS Safari */
+	-webkit-user-select: none;		/* Chrome/Safari/Opera */
+	-khtml-user-select: none;		/* Konqueror */
+	-moz-user-select: none;			/* Firefox */
+	-ms-user-select: none;			/* Internet Explorer/Edge */
+}
+
+h1 {
+	font-size: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.timer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-bottom: gray solid 1px;
+}
+
+.timer * {
+	padding: 10px;
+	border: transparent;
+	border-radius: 1px;
+	margin: 10px;
+}
+
+.bill {
+	color: rgb(0, 200, 0);
+	font-size: 25px;
+}
+
+.not-bill {
+	color: white;
+	font-size: 25px;
+}
+
+.elapsed-time {
+	font-size: 25px;
+}
+
+.btn-running {
+	color: white;
+	background-color: rgb(236, 0, 0);
+	border-radius: 1px;
+}
+
+.btn-running:hover {
+	background-color: rgb(226, 0, 0);
+}
+
+.btn-not-running {
+	color: white;
+	background-color: rgb(75, 200, 0);
+	border-radius: 1px;
+}
+
+.btn-not-running:hover {
+	background-color: rgb(71, 190, 0);
+}
+
+.time-list {
+	border-spacing: 0px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+tr:hover {
+	color: rgb(23, 30, 34);
+	background-color: white;
+}
+
+tr:hover > .entry-continue {
+	color: rgb(75, 200, 0);
+}
+
+tr:hover > .entry-delete {
+	color: rgb(236, 0, 0);
+}
+
+td {
+	width: 100px;
+	padding: 10px;
+}
+
+.entry-billable {
+	width: 10px;
+	font-size: 25px;
+}
+
+.entry-continue {
+	width: 10px;
+	color: transparent;
+}
+
+.entry-desc {
+	width: 400px;
+}
+
+.entry-proj {
+	border-radius: 1px;
+	width: 250px;
+}
+
+.entry-start {
+	width: 80px;
+	font-size: 11px;
+}
+
+.entry-end {
+	width: 80px;
+	font-size: 11px;
+}
+
+.entry-delete {
+	color: transparent;
+	width: 10px;
+	font-size: 11px;
+}

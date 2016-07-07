@@ -1,0 +1,5 @@
+# node
+node_modules/
+
+# output (don't version playground apps)
+builds/
