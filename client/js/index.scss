@@ -1,0 +1,21 @@
+body {
+	font-family: "Helvetica";
+	background-color: rgb(23, 30, 34);
+	color: white;
+	-webkit-touch-callout: none;	/* iOS Safari */
+	-webkit-user-select: none;		/* Chrome/Safari/Opera */
+	-khtml-user-select: none;		/* Konqueror */
+	-moz-user-select: none;			/* Firefox */
+	-ms-user-select: none;			/* Internet Explorer/Edge */
+}
+
+h1 {
+	font-size: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+:global .elapsed-time {
+	font-size: 25px;
+}

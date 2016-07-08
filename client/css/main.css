@@ -1,0 +1,52 @@
+tr:hover {
+	color: rgb(23, 30, 34);
+	background-color: white;
+}
+
+tr:hover > .entry-continue {
+	color: rgb(75, 200, 0);
+}
+
+tr:hover > .entry-delete {
+	color: rgb(236, 0, 0);
+}
+
+td {
+	width: 100px;
+	padding: 10px;
+}
+
+.entry-billable {
+	width: 10px;
+	font-size: 25px;
+}
+
+.entry-continue {
+	width: 10px;
+	color: transparent;
+}
+
+.entry-desc {
+	width: 400px;
+}
+
+.entry-proj {
+	border-radius: 1px;
+	width: 250px;
+}
+
+.entry-start {
+	width: 80px;
+	font-size: 11px;
+}
+
+.entry-end {
+	width: 80px;
+	font-size: 11px;
+}
+
+.entry-delete {
+	color: transparent;
+	width: 10px;
+	font-size: 11px;
+}

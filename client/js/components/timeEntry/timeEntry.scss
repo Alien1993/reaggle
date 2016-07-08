@@ -1,0 +1,54 @@
+.time_entry {
+	& > * {
+		width: 100px;
+		padding: 10px;
+	};
+	
+	&:hover {
+		color: rgb(23, 30, 34);
+		background-color: white;
+	};
+
+	&:hover > .entry_continue {
+		color: rgb(75, 200, 0);
+	};
+
+	&:hover > .entry_delete {
+		color: rgb(236, 0, 0);
+	};
+}
+
+.entry_billable {
+	width: 10px;
+	font-size: 25px;
+}
+
+.entry_continue {
+	width: 10px;
+	color: transparent;
+}
+
+.entry_desc {
+	width: 400px;
+}
+
+.entry_proj {
+	border-radius: 1px;
+	width: 250px;
+}
+
+.entry_start {
+	width: 80px;
+	font-size: 11px;
+}
+
+.entry_end {
+	width: 80px;
+	font-size: 11px;
+}
+
+.entry_delete {
+	color: transparent;
+	width: 10px;
+	font-size: 11px;
+}

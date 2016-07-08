@@ -1,0 +1,43 @@
+.timer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-bottom: gray solid 1px;
+}
+
+.timer * {
+	padding: 10px;
+	border: transparent;
+	border-radius: 1px;
+	margin: 10px;
+}
+
+.bill {
+	color: rgb(0, 200, 0);
+	font-size: 25px;
+}
+
+.not_bill {
+	color: white;
+	font-size: 25px;
+}
+
+.btn_running {
+	color: white;
+	background-color: rgb(236, 0, 0);
+	border-radius: 1px;
+}
+
+.btn_running:hover {
+	background-color: rgb(226, 0, 0);
+}
+
+.btn_not_running {
+	color: white;
+	background-color: rgb(75, 200, 0);
+	border-radius: 1px;
+}
+
+.btn_not_running:hover {
+	background-color: rgb(71, 190, 0);
+}
